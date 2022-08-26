@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 import datetime as dt
 
-st.set_page_config(page_title='League Comps API',pag_icon=':ringed_planet:')
+st.set_page_config(page_title='League Comps API',page_icon=':ringed_planet:')
 
 # st.image('https://i.imgur.com/WXbv7Bw.png')
 st.image('https://i.imgur.com/G1m6Q1r.png')
