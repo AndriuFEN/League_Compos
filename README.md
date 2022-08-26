@@ -9,4 +9,5 @@ The final result will seek to be free to use.
 Designer and Programmer
 ------------------------------------
 Andre Escobar Portius.
-(c) MLPortius.
+
+(C) MLPortius.
