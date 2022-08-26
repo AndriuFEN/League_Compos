@@ -3,8 +3,6 @@
 Created on Fri Aug 26 03:38:52 2022
 
 @author: Andriu
-
-streamlit run League_App.py
 """
 
 import time 
@@ -12,6 +10,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import datetime as dt
+
+st.set_page_config(page_title='League Comps API',pag_icon=':ringed_planet:')
 
 # st.image('https://i.imgur.com/WXbv7Bw.png')
 st.image('https://i.imgur.com/G1m6Q1r.png')
@@ -103,5 +103,5 @@ if cr:
 
 #%% 
 
-# st.write('App made by Andriu')
+# st.write('App made by Andriu.')
 
