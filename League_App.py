@@ -103,5 +103,5 @@ if cr:
 
 #%% 
 
-# st.write('App made by Andriu.')
+st.write('App made by Andriu.')
 
