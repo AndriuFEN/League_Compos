@@ -87,19 +87,25 @@ data = load_data()
 st.header('Setup your teams')
 
 n = st.number_input(label="Comps Number",min_value=1,value=2)
+tz = st.radio(label="Team Size", options=['3v3','4v4','5v5], horizontal=True)
 
+                                          
+                                          
 #%% TEAM CREATION
 
 cr = st.button('CREATE')
 
 if cr:
-    teams = creating_teams(n, data)
+    if tz=='3v3':                                      
+        teams = creating_teams(n, data)
     
-    for i in range(len(teams)):
-        st.write('Comp '+str(i+1))
-        st.table(pd.DataFrame(teams[i].comp,index=['AP','AD','TANK'],columns=['Pick']))
+        for i in range(len(teams)):
+            st.write('Comp '+str(i+1))
+            st.table(pd.DataFrame(teams[i].comp,index=['AP','AD','TANK'],columns=['Pick']))
+            st.balloons()                                          
+    else:
+        st.write('WORK IN PROGRES...!')
     cr = False
-    
 
 #%% 
 
