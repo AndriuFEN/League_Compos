@@ -87,7 +87,7 @@ data = load_data()
 st.header('Setup your teams')
 
 n = st.number_input(label="Comps Number",min_value=1,value=2)
-tz = st.radio(label="Team Size", options=['3v3','4v4','5v5], horizontal=True)
+tz = st.radio(label="Team Size", options=['3v3','4v4','5v5'], horizontal=True)
 
                                           
                                           
